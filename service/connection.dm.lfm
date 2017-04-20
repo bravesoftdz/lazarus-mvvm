@@ -1,0 +1,21 @@
+object dm: Tdm
+  OldCreateOrder = False
+  Height = 266
+  HorizontalOffset = 257
+  VerticalOffset = 213
+  Width = 390
+  object MyCon: TMyConnection
+    LoginPrompt = False
+    Database = 'test'
+    Username = 'root'
+    Server = 'localhost'
+    left = 24
+    top = 11
+    EncryptedPassword = '8CFF9AFF8DFF89FF9AFF8DFF'
+  end
+  object MyQuery1: TMyQuery
+    FilterOptions = []
+    left = 106
+    top = 82
+  end
+end

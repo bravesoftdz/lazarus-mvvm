@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="14">
+      <Unit0>
+        <Filename Value="mydac.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="57" Y="10"/>
+        <UsageCount Value="24"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="service/connection.dm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <TopLine Value="4"/>
+        <CursorPos X="14" Y="15"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="view/view.main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="37"/>
+        <CursorPos Y="34"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="view/view.barang.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrmBarang"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <CursorPos Y="18"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="model/model.barang.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="19"/>
+        <CursorPos X="34" Y="35"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="model/model.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="34"/>
+        <CursorPos Y="50"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="view/barang.view.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="view.barang"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="17"/>
+        <UsageCount Value="20"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="view/main.view.pas"/>
+        <ComponentName Value="Form2"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="view.main"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="15"/>
+        <UsageCount Value="20"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../../../master/pascal/lazarus/package/MyDAC/Source/MyAccess.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="566"/>
+        <CursorPos X="14" Y="574"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../../../master/pascal/lazarus/package/MyDAC/Source/DBAccess.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="15184"/>
+        <CursorPos X="2" Y="15184"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="/usr/share/fpcsrc/3.0.0/packages/fcl-db/src/base/db.pas"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="1616"/>
+        <CursorPos X="15" Y="1624"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="/usr/share/fpcsrc/3.0.0/rtl/inc/objpash.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="183"/>
+        <CursorPos X="23" Y="193"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="/usr/share/fpcsrc/3.0.0/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="637"/>
+        <CursorPos X="15" Y="645"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="/usr/share/fpcsrc/3.0.0/rtl/inc/systemh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1235"/>
+        <CursorPos X="11" Y="1243"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+    </Units>
+    <JumpHistory Count="24" HistoryIndex="23">
+      <Position1>
+        <Filename Value="service/connection.dm.pas"/>
+      </Position1>
+      <Position2>
+        <Filename Value="view/view.main.pas"/>
+      </Position2>
+      <Position3>
+        <Filename Value="view/view.main.pas"/>
+        <Caret Line="36" Column="5" TopLine="17"/>
+      </Position3>
+      <Position4>
+        <Filename Value="view/view.main.pas"/>
+        <Caret Line="38" Column="6" TopLine="19"/>
+      </Position4>
+      <Position5>
+        <Filename Value="view/view.main.pas"/>
+        <Caret Line="51" TopLine="30"/>
+      </Position5>
+      <Position6>
+        <Filename Value="view/view.main.pas"/>
+        <Caret Line="42" Column="17" TopLine="38"/>
+      </Position6>
+      <Position7>
+        <Filename Value="view/view.main.pas"/>
+        <Caret Line="16" Column="14" TopLine="10"/>
+      </Position7>
+      <Position8>
+        <Filename Value="view/view.main.pas"/>
+        <Caret Line="42" Column="29" TopLine="30"/>
+      </Position8>
+      <Position9>
+        <Filename Value="view/view.main.pas"/>
+        <Caret Line="41" Column="29" TopLine="29"/>
+      </Position9>
+      <Position10>
+        <Filename Value="view/view.main.pas"/>
+        <Caret Line="45" Column="12" TopLine="30"/>
+      </Position10>
+      <Position11>
+        <Filename Value="view/view.main.pas"/>
+        <Caret Line="46" Column="42" TopLine="32"/>
+      </Position11>
+      <Position12>
+        <Filename Value="view/view.main.pas"/>
+        <Caret Line="53" Column="19" TopLine="34"/>
+      </Position12>
+      <Position13>
+        <Filename Value="model/model.barang.pas"/>
+        <Caret Line="18" Column="9"/>
+      </Position13>
+      <Position14>
+        <Filename Value="model/model.barang.pas"/>
+        <Caret Line="21" Column="52" TopLine="4"/>
+      </Position14>
+      <Position15>
+        <Filename Value="service/connection.dm.pas"/>
+        <Caret Line="15" Column="14" TopLine="4"/>
+      </Position15>
+      <Position16>
+        <Filename Value="model/model.barang.pas"/>
+        <Caret Line="33" Column="29" TopLine="23"/>
+      </Position16>
+      <Position17>
+        <Filename Value="model/model.pas"/>
+        <Caret Line="18" Column="29" TopLine="5"/>
+      </Position17>
+      <Position18>
+        <Filename Value="model/model.pas"/>
+        <Caret Line="32" Column="12" TopLine="17"/>
+      </Position18>
+      <Position19>
+        <Filename Value="model/model.pas"/>
+        <Caret Line="19" Column="14" TopLine="17"/>
+      </Position19>
+      <Position20>
+        <Filename Value="model/model.pas"/>
+        <Caret Line="32" Column="21" TopLine="28"/>
+      </Position20>
+      <Position21>
+        <Filename Value="model/model.pas"/>
+        <Caret Line="32" Column="15" TopLine="28"/>
+      </Position21>
+      <Position22>
+        <Filename Value="/usr/share/fpcsrc/3.0.0/packages/fcl-db/src/base/db.pas"/>
+        <Caret Line="1624" Column="15" TopLine="1616"/>
+      </Position22>
+      <Position23>
+        <Filename Value="model/model.pas"/>
+        <Caret Line="33" Column="18" TopLine="28"/>
+      </Position23>
+      <Position24>
+        <Filename Value="model/model.pas"/>
+        <Caret Line="22" Column="24" TopLine="13"/>
+      </Position24>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

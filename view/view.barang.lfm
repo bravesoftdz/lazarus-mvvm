@@ -1,0 +1,11 @@
+object FrmBarang: TFrmBarang
+  Left = 0
+  Height = 375
+  Top = 0
+  Width = 539
+  Caption = 'Daftar Barang'
+  ClientHeight = 375
+  ClientWidth = 539
+  LCLVersion = '1.6.2.0'
+  Visible = False
+end
