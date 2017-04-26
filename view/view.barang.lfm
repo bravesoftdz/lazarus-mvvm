@@ -3,9 +3,46 @@ object FrmBarang: TFrmBarang
   Height = 375
   Top = 0
   Width = 539
+  Align = alClient
   Caption = 'Daftar Barang'
   ClientHeight = 375
   ClientWidth = 539
+  OnClose = FormClose
+  OnCreate = FormCreate
   LCLVersion = '1.6.2.0'
   Visible = False
+  object DBGrid1: TDBGrid
+    Left = 0
+    Height = 325
+    Top = 50
+    Width = 539
+    Align = alClient
+    Color = clWindow
+    Columns = <>
+    DataSource = DsBarang
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 50
+    Top = 0
+    Width = 539
+    Align = alTop
+    ClientHeight = 50
+    ClientWidth = 539
+    TabOrder = 1
+    object BtnRefresh: TButton
+      Left = 8
+      Height = 25
+      Top = 8
+      Width = 75
+      Caption = 'Refresh'
+      OnClick = BtnRefreshClick
+      TabOrder = 0
+    end
+  end
+  object DsBarang: TDataSource
+    left = 24
+    top = 104
+  end
 end
