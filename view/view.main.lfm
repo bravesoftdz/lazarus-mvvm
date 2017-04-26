@@ -1,17 +1,17 @@
 object FrmMain: TFrmMain
-  Left = 0
+  Left = 347
   Height = 387
-  Top = 0
+  Top = 161
   Width = 572
   Caption = 'Main Menu'
   ClientHeight = 387
   ClientWidth = 572
   Menu = MenuUtama
   LCLVersion = '1.6.2.0'
-  Visible = False
+  WindowState = wsMaximized
   object PageUtama: TPageControl
     Left = 0
-    Height = 360
+    Height = 387
     Top = 0
     Width = 572
     Align = alClient
