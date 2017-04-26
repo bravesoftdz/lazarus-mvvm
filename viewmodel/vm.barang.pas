@@ -5,7 +5,7 @@ unit vm.barang;
 interface
 
 uses
-  db, model.barang;
+  db, model.barang, MyAccess;
 
 type
 
@@ -14,10 +14,9 @@ type
   TVmBarang = class
   private
     FBarang: TBarang;
-    Fdata: TDataSet;
     function GetData: TDataSet;
   public
-    constructor Create;
+    constructor Create(ADb: TMyConnection);
     destructor Destroy;
   published
     property Data: TDataSet read GetData;
@@ -29,18 +28,17 @@ implementation
 
 function TVmBarang.GetData: TDataSet;
 begin
-
+  Result := FBarang.AllBarang;
 end;
 
-constructor TVmBarang.Create;
+constructor TVmBarang.Create(ADb: TMyConnection);
 begin
-  FData := TDataSet.Create(nil);
-  FBarang := TBarang.Create();
+  FBarang := TBarang.Create(ADb);
 end;
 
 destructor TVmBarang.Destroy;
 begin
-  Fdata.Free;
+  FBarang.Free;
 end;
 
 end.
