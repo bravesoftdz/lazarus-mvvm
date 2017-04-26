@@ -13,6 +13,7 @@ Type
 
   TModel = class
   private
+    Fdb: TMyConnection;
     FQuery: TMyQuery;
   protected
     function GetQuery(const ASql: String):TDataSet;
@@ -29,23 +30,32 @@ implementation
 { TModel }
 
 function TModel.GetQuery(const ASql: String): TDataSet;
+var
+  LQuery : TMyQuery;
 begin
-  FQuery.Close;
-  FQuery.SQL.Text := ASql;
-  FQuery.Open;
+  LQuery:= TMyQuery.Create(Fdb);
+  LQuery.Connection := Fdb;
+  LQuery.Close;
+  LQuery.SQL.Clear;
+  LQuery.SQL.Text := ASql;
+  LQuery.Open;
+
+  Result := LQuery;
 end;
 
 procedure TModel.ExecQuery(const ASQL: String);
 begin
   FQuery.Close;
+  FQuery.SQL.Clear;
   FQuery.SQL.Text := ASql;
   FQuery.ExecSQL;
 end;
 
 constructor TModel.Create(ADb: TMyConnection);
 begin
-  FQuery:= TMyQuery.Create(nil);
-  FQuery.Connection := ADb;
+  FDb := ADb;;
+  FQuery:= TMyQuery.Create(ADb);
+  FQuery.Connection := Fdb;
 end;
 
 destructor TModel.Destroy;
