@@ -13,7 +13,7 @@ type
 
   Tdm = class(TDataModule)
     MyCon: TMyConnection;
-    MyQuery1: TMyQuery;
+    procedure DataModuleCreate(Sender: TObject);
   private
     { private declarations }
   public
@@ -26,6 +26,14 @@ var
 implementation
 
 {$R *.lfm}
+
+{ Tdm }
+
+procedure Tdm.DataModuleCreate(Sender: TObject);
+begin
+  MyCon.ConnectString := 'User ID=root;Password=server;Data Source=localhost;Database=test;Login Prompt=False';
+  //MyCon.Open;
+end;
 
 end.
 

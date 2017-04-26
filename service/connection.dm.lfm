@@ -1,4 +1,5 @@
 object dm: Tdm
+  OnCreate = DataModuleCreate
   OldCreateOrder = False
   Height = 266
   HorizontalOffset = 257
@@ -12,10 +13,5 @@ object dm: Tdm
     left = 24
     top = 11
     EncryptedPassword = '8CFF9AFF8DFF89FF9AFF8DFF'
-  end
-  object MyQuery1: TMyQuery
-    FilterOptions = []
-    left = 106
-    top = 82
   end
 end
